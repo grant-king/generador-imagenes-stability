@@ -1,0 +1,4 @@
+# requerimientos
+requests
+gradio
+python-dotenv
