@@ -49,15 +49,15 @@ Para comenzar, sigue estos pasos para configurar tu entorno:
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/grant-king/stability_demo.git
-   cd stability_demo
+   git clone https://github.com/grant-king/generador-imagenes-stability.git
+   cd generador-imagenes-stability
    ```
 
 2. Crea un entorno virtual y actívalo:
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # En Windows, usa `venv\Scripts\activate`
+   python -m venv entorno_virt_generador
+   source entorno_virt_generador/bin/activate  # En Windows, usa `entorno_virt_generador\Scripts\activate`
    ```
 
 3. Instala los paquetes necesarios:
@@ -77,7 +77,7 @@ Para comenzar, sigue estos pasos para configurar tu entorno:
 Para lanzar la aplicación, simplemente ejecuta:
 
 ```bash
-python stability_demo/app_demo_2.py
+python generador-imagenes-stability/demo_basica.py
 ```
 
 La aplicación iniciará una interfaz web de Gradio con la que puedes interactuar a través de tu navegador en la dirección local proporcionada.
